@@ -47,10 +47,6 @@ dimnames(results.a) <- list(NULL,c("b.te","b.cov","b.cil","r.te","r.cov","r.cil"
 dimnames(results.b) <- list(NULL,c("b.te","b.cov","b.cil","r.te","r.cov","r.cil","aipw.te","aipw.cov","aipw.cil","ipw.te","ipw.cov","ipw.cil","tau.est"))
 dimnames(results.c) <- list(NULL,c("b.te","b.cov","b.cil","r.te","r.cov","r.cil","aipw.te","aipw.cov","aipw.cil","ipw.te","ipw.cov","ipw.cil","tau.est"))
 
-dimnames(results.a) <- list(NULL,c("b.te","b.cov","b.cil","r.te","r.cov","r.cil","aipw.te","aipw.cov","aipw.cil","ipw.te","ipw.cov","ipw.cil","tau.est"))
-dimnames(results.b) <- list(NULL,c("b.te","b.cov","b.cil","r.te","r.cov","r.cil","aipw.te","aipw.cov","aipw.cil","ipw.te","ipw.cov","ipw.cil","tau.est"))
-dimnames(results.c) <- list(NULL,c("b.te","b.cov","b.cil","r.te","r.cov","r.cil","aipw.te","aipw.cov","aipw.cil","ipw.te","ipw.cov","ipw.cil","tau.est"))
-
 precision.a <- matrix(0,niters,4)
 dimnames(precision.a) <- list(NULL,c("bart","reg","aipw","ipw"))
 precision.b <- matrix(0,niters,4)
