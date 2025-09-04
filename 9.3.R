@@ -57,9 +57,7 @@ precision.b <- matrix(0,niters,4)
 dimnames(precision.b) <- list(NULL,c("bart","reg","aipw","ipw"))
 precision.c <- matrix(0,niters,4)
 dimnames(precision.c) <- list(NULL,c("bart","reg","aipw","ipw"))
-```
-
-```{r}
+ 
 for(i in 1:niters){
   # Print the status for each iteration
   cat("Processing iteration", i, "of", niters, "\n")
